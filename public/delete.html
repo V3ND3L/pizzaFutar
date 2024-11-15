@@ -1,0 +1,31 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Törlés</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="delete.js"></script>
+</head>
+<body>
+    <div class="container">
+        <header>
+            <h1>Futárok</h1>
+        </header>
+        <form action="#" id="deleteForm" enctype="multipart/form-data">
+            <select name="fazon" id="fazon">
+            </select>
+            <p class="beviteli">
+                <input type="text" name="fnev" id="fnev" placeholder="Futár neve" readonly required>
+            </p>
+            <p class="beviteli">
+                <input type="tel" name="ftel" id="ftel" placeholder="Telefonszám" readonly required>
+            </p>
+            <p class="beviteli">
+                <button type="button" id="deleteButton">Törlés</button>
+            </p>
+        </form>
+    </div>
+</body>
+</html>
